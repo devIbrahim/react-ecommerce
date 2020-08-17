@@ -1,15 +1,11 @@
 .directory-menu {
-  width: 100%;
-  height: 90vh;
-  // display: flex;
-  // flex-wrap: wrap;
-  // justify-content: space-between;
+  width: 95%;
+  height: 98vh;
   display: grid;
-  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-  grid-template-rows: 45% 55%;
-  // grid-gap: 15px;
-  // margin: 0 0 0 -5%;
+  grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+  grid-template-rows: 38% 62%;
+  margin: 0.5em 0 0 0;
   grid-template-areas:
-    " . box1 box1 box2 box2 box3 box3 . "
-    " . box4 box4 box4 box5 box5 box5 . ";
+    " box1 box1 box1 box1 box2 box2 box2 box2 box3 box3 box3 box3 "
+    " box4 box4 box4 box4 box4 box4 box5 box5 box5 box5 box5 box5 ";
 }

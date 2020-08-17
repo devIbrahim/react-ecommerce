@@ -2,15 +2,16 @@ import React from "react";
 
 import "./menu-item.styles.scss";
 
-const MenuItem = ({ title, imageUrl, size, className }) => (
-  <div
-    className={`menu-item ${size} ${className}`}
-    style={{
-      background: `url(${imageUrl})`,
-      backgroundPosition: "center",
-      backgroundSize: "cover",
-    }}
-  >
+const MenuItem = ({ title, imageUrl, className }) => (
+  <div className={`menu-item ${className}`}>
+    <div
+      style={{
+        background: `url(${imageUrl})`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+      className="background-image"
+    ></div>
     <div className="content">
       <h1 className="title">{title.toUpperCase()}</h1>
       <span className="subtitle">SHOP NOW</span>

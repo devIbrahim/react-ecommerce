@@ -25,7 +25,7 @@
   }
 
   .content {
-    padding: 1.8em 2em;
+    padding: 1.8em;
     border: 1px solid rgb(107, 107, 107);
     background: white;
     opacity: 0.8;
@@ -39,13 +39,14 @@
       // font-weight: bold;
       font-weight: 500;
       // margin-bottom: 6px;
-      font-size: 1.7em;
+      font-size: 1.6rem;
       color: #333333;
       margin: 0;
     }
 
     .subtitle {
-      font-size: 16px;
+      font-size: 1.02rem;
+      padding: 0.1em 0 0 0;
     }
   }
 }
